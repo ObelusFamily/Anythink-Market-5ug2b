@@ -35,7 +35,7 @@ const ItemPreview = (props) => {
       className="card bg-dark border-light p-3"
       style={{ borderRadius: "20px" }}
     >
-      <ItemImage item={item} />
+      <ItemImage item={item} preview />
 
       <div className="card-body">
         <Link to={`/item/${item.slug}`} className="text-white">
