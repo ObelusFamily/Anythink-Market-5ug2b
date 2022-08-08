@@ -1,5 +1,4 @@
 const ItemImage = ({ item, preview = false }) => {
-  console.log("jjd", item.title);
   const image = {
     src: item.image,
     title: item.title,
